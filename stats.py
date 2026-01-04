@@ -14,10 +14,11 @@ def count_characters(words):
 
     return times
 
-def get_num(item):
-    return item["num"]
+
 
 def count_sorted(characters):
+    def get_num(item):
+        return item["num"]
 
     sorted = []
 
